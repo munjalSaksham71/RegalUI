@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
-
+@import url('./docs/docs.css');
 * { 
     padding: 0;
     margin: 0;
@@ -10,6 +10,7 @@
 :root {
     --primary-color: #1285ed;
     --seconday-color: #ED7A12;
+    --hover-color: #3D9AEE;
 }
 
 body {
@@ -133,3 +134,7 @@ footer {
     color: #ffffff;
 }
 
+.style_none {
+    text-decoration: none;
+    color: #ffffff;
+}
