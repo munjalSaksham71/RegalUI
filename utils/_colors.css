@@ -1,0 +1,13 @@
+:root {
+    --bg-black: #000000;
+    --primary: #1285ed;
+    --secondary: #be620e;
+    --danger: #cc0000;
+    --success: #3c9035;
+    --warning: #997a00;
+    --light-primary: #88c2f6;
+    --light-secondary: #f3a35b;
+    --light-danger: #ff8080;
+    --light-success: #7ecd78;
+    --light-warning: #ffdb4d;
+}

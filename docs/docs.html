@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="../styles.css">
     <title>Documentation</title>
 </head>
@@ -30,7 +31,7 @@
             </ul>
         </aside>
         <div class="content">
-            <div class="topic bolder mb-5">Avatar</div>
+            <div class="heading1 bolder mb-5">Avatar</div>
             <div class="overview mb-3">The Avatar comes with predefined option that allow you to set its shape, type, color, size, border, and fill.</div>
             <!-- Image Avatar -->
             <div class="inline_avatar">
@@ -78,6 +79,40 @@
             class="code-snippet"
             sandbox="allow-scripts allow-same-origin">
             </iframe> <hr class="mt-4" />
+
+            <!-- ######################   Alerts  ######################-->
+
+            <div id="alert" class="heading1 bolder mt-5 mb-5">Alert</div>
+            <div class="overview mb-3">An alert displays a short, important message in a way that attracts the user's attention without interrupting the user's task.</div>
+            <!-- Normal Alert -->
+            <div class="primary-alert">This is an primary alert — <span class="bolder">check it out!</span></div>
+            <div class="primary-secondary">This is an Secondary alert — <span class="bolder">check it out!</span></div>
+            <div class="primary-error">This is an Error alert — <span class="bolder">check it out!</span></div>
+            <div class="primary-warning">This is an Warning alert — <span class="bolder">check it out!</span></div>
+            <div class="primary-success">This is an Success alert — <span class="bolder">check it out!</span></div>
+
+            <div class="heading2 center mb-4">Alerts with no icon</div>
+            <div class="heading3">Source Code</div>
+            <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%2818%2C133%2C237%2C1%29&t=a11y-dark&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522primary-alert%2522%253EThis%2520is%2520an%2520primary%2520alert%2520%25E2%2580%2594%2520%253Cspan%2520class%253D%2522bolder%2522%253Echeck%2520it%2520out%21%253C%252Fspan%253E%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522primary-secondary%2522%253EThis%2520is%2520an%2520Secondary%2520alert%253Cspan%2520class%253D%2522bolder%2522%253Echeck%2520it%2520out%21%253C%252Fspan%253E%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522primary-error%2522%253EThis%2520is%2520an%2520Error%2520alert%2520%25E2%2580%2594%2520%253Cspan%2520class%253D%2522bolder%2522%253Echeck%2520it%2520out%21%253C%252Fspan%253E%253C%252Fdiv%253E%2520%253Cdiv%2520class%253D%2522primary-warning%2522%253EThis%2520is%2520an%2520Warning%2520alert%2520%25E2%2580%2594%2520%253Cspan%2520class%253D%2522bolder%2522%253Echeck%2520it%2520out%21%253C%252Fspan%253E%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522primary-success%2522%253EThis%2520is%2520an%2520Success%2520alert%2520%25E2%2580%2594%2520%253Cspan%2520class%253D%2522bolder%2522%253Echeck%2520it%2520out%21%253C%252Fspan%253E%253C%252Fdiv%253E"
+            class="code-snippet mb-5"
+            sandbox="allow-scripts allow-same-origin">
+            </iframe> <hr class="mt-4 mb-4" />
+
+            <!-- Alert With Icons -->
+            <div class="primary-alert"><i class="fa fa-home mr-1"></i> This is an primary alert — <span class="bolder">check it out!</span></div>
+            <div class="primary-secondary"><i class="fa fa-home mr-1"></i>This is an Secondary alert — <span class="bolder">check it out!</span></div>
+            <div class="primary-error"><i class="fa fa-exclamation-circle mr-1"></i>This is an Error alert — <span class="bolder">check it out!</span></div>
+            <div class="primary-warning"><i class="fa fa-warning mr-1"></i>This is an Warning alert — <span class="bolder">check it out!</span></div>
+            <div class="primary-success"><i class="fa fa-check mr-1"></i>This is an Success alert — <span class="bolder">check it out!</span></div>
+
+            <div class="heading2 center mb-4">Alerts with Icons</div>
+            <div class="heading3">Source Code</div>
+            <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%2818%2C133%2C237%2C1%29&t=a11y-dark&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522primary-alert%2522%253E%253Ci%2520class%253D%2522fa%2520fa-home%2520mr-1%2522%253E%253C%252Fi%253E%2520This%2520is%2520an%2520primary%2520alert%2520%25E2%2580%2594%2520%253Cspan%2520class%253D%2522bolder%2522%253Echeck%2520it%2520out%21%253C%252Fspan%253E%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522primary-secondary%2522%253E%253Ci%2520class%253D%2522fa%2520fa-home%2520mr-1%2522%253E%253C%252Fi%253EThis%2520is%2520an%2520Secondary%2520alert%2520%25E2%2580%2594%2520%253Cspan%2520class%253D%2522bolder%2522%253Echeck%2520it%2520out%21%253C%252Fspan%253E%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522primary-error%2522%253E%253Ci%2520class%253D%2522fa%2520fa-exclamation-circle%2520mr-1%2522%253E%253C%252Fi%253EThis%2520is%2520an%2520Error%2520alert%2520%25E2%2580%2594%2520%253Cspan%2520class%253D%2522bolder%2522%253Echeck%2520it%2520out%21%253C%252Fspan%253E%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522primary-warning%2522%253E%253Ci%2520class%253D%2522fa%2520fa-warning%2520mr-1%2522%253E%253C%252Fi%253EThis%2520is%2520an%2520Warning%2520alert%2520%25E2%2580%2594%2520%253Cspan%2520class%253D%2522bolder%2522%253Echeck%2520it%2520out%21%253C%252Fspan%253E%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522primary-success%2522%253E%253Ci%2520class%253D%2522fa%2520fa-check%2520mr-1%2522%253E%253C%252Fi%253EThis%2520is%2520an%2520Success%2520alert%2520%25E2%2580%2594%2520%253Cspan%2520class%253D%2522bolder%2522%253Echeck%2520it%2520out%21%253C%252Fspan%253E%253C%252Fdiv%253E"
+            class="code-snippet"
+            sandbox="allow-scripts allow-same-origin">
+            </iframe> <hr class="mt-4">
         </div>
     </div>
 

@@ -1,0 +1,36 @@
+@import url('./_colors.css');
+
+.primary-alert {
+    background-color: var(--light-primary);
+    color: var(--primary);
+    padding: 1rem 0.75rem;
+    margin-bottom: 1rem;
+}
+
+.primary-secondary {
+    background-color: var(--light-secondary);
+    color: var(--secondary);
+    padding: 1rem 0.75rem;
+    margin-bottom: 1rem;
+}
+
+.primary-warning {
+    background-color: var(--light-warning);
+    color: var(--warning);
+    padding: 1rem 0.75rem;
+    margin-bottom: 1rem;
+}
+
+.primary-error {
+    background-color: var(--light-danger);
+    color: var(--danger);
+    padding: 1rem 0.75rem;
+    margin-bottom: 1rem;
+}
+
+.primary-success {
+    background-color: var(--light-success);
+    color: var(--success);
+    padding: 1rem 0.75rem;
+    margin-bottom: 1rem;
+}
