@@ -1,0 +1,59 @@
+.avatar-xl {
+    height: 152px;
+    width: 152px;
+}
+
+.avatar-l {
+    height: 125px;
+    width: 125px;
+}
+
+.avatar-md {
+    height: 96px;
+    width: 96px;
+}
+
+.avatar-sm {
+    height: 48px;
+    width: 48px;
+}
+
+.border-red {
+    border: 2px solid red;
+}
+
+.border-blue {
+    border: 2px solid blue;
+}
+
+.border-black {
+    border: 2px solid black;
+}
+
+.border-green {
+    border: 2px solid green;
+}
+
+.bg-black {
+    background-color: black;
+    color: #ffffff;
+}
+
+.bg-blue {
+    background-color: blue;
+    color: #ffffff;
+}
+
+.bg-green {
+    background-color: green;
+    color: #ffffff;
+}
+
+.bg-red {
+    background-color: red;
+    color: #ffffff;
+}
+
+.rounded-corner {
+    border-radius: 50%;
+}
