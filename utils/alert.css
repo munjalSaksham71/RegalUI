@@ -6,25 +6,25 @@
     padding: 1rem 0.75rem;
 }
 
-.primary-secondary {
+.secondary-alert {
     background-color: var(--light-secondary);
     color: var(--secondary);
     padding: 1rem 0.75rem;
 }
 
-.primary-warning {
+.warning-alert {
     background-color: var(--light-warning);
     color: var(--warning);
     padding: 1rem 0.75rem;
 }
 
-.primary-error {
+.error-alert {
     background-color: var(--light-danger);
     color: var(--danger);
     padding: 1rem 0.75rem;
 }
 
-.primary-success {
+.success-alert {
     background-color: var(--light-success);
     color: var(--success);
     padding: 1rem 0.75rem;
