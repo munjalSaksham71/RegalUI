@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
 @import url('./docs/docs.css');
+@import url('./utils/base.css');
+
 * { 
     padding: 0;
     margin: 0;
@@ -62,17 +64,14 @@ main {
 
 .heading1 {
     font-size: 3rem;
-    padding: 0.5rem;
 }
 
 .heading2 {
     font-size: 2rem;
-    padding: 0.5rem;
 }  
 
 .heading3 {
     font-size: 1.5rem;
-    padding: 0.5rem;
 }
 
 .text {
@@ -137,4 +136,8 @@ footer {
 .style_none {
     text-decoration: none;
     color: #ffffff;
+}
+
+.center {
+    text-align: center;
 }

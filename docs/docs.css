@@ -18,7 +18,10 @@ body {
     width: 200px;
     position: fixed;
     overflow: auto;
-    margin-top: 77px;
+}
+
+.content {
+    margin-left: 18.75rem;
 }
 
 li {
@@ -50,3 +53,27 @@ li {
     text-decoration: none;
     color: #000000;
 }
+
+.wrapper {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.bonded {
+    display: flex;
+    flex-direction: column;
+}
+
+.inline_avatar {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 40px;
+}
+
+.code-snippet {
+    width: 960px; 
+    height: 260px; 
+    border:0; 
+    transform: scale(1); 
+    overflow:hidden;
+} 
