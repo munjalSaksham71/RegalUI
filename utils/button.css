@@ -1,0 +1,83 @@
+.btn {
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: var(--primary);
+    color: #ffffff;
+}
+
+.btn-secondary {
+    background-color: var(--secondary);
+    color: #ffffff;
+}
+
+.btn-success {
+    background-color: var(--success);
+    color: #ffffff;
+}
+
+.btn-error {
+    background-color: var(--danger);
+    color: #ffffff;
+}
+
+.btn-dark {
+    background-color: var(--bg-black);
+    color: #ffffff;
+}
+
+.btn-link {
+    background-color: #ffffff;
+    color: var(--primary);
+    text-decoration: underline;
+}
+
+/* Outline Buttons */
+
+.btn-outline-primary {
+    background-color: #ffffff;
+    border: 1px solid var(--primary);
+}
+
+.btn-outline-secondary {
+    background-color: #ffffff;
+    border: 1px solid var(--secondary);
+}
+
+.btn-outline-error {
+    background-color: #ffffff;
+    border: 1px solid var(--danger);
+}
+
+.btn-outline-warning {
+    background-color: #ffffff;
+    border: 1px solid var(--warning);
+}
+
+.btn-outline-success {
+    background-color: #ffffff;
+    border: 1px solid var(--success);
+}
+
+.btn-outline-dark {
+    background-color: #ffffff;
+    border: 1px solid var(--bg-black);
+}
+
+.btn-outline-link {
+    background-color: #ffffff;
+    border: 1px solid var(--primary);
+    color: var(--primary);
+}
+
+.floating_btn {
+    padding: 1rem;
+    border-radius: 50%;
+    border: none;
+    font-weight: bolder;
+    font-size: 20px;
+    box-shadow: 10px 10px 10px #999;
+}
