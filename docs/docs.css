@@ -78,7 +78,7 @@ li {
     overflow:hidden;
 } 
 
-.badge_component {
+.component {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
