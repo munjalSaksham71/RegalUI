@@ -77,3 +77,10 @@ li {
     transform: scale(1); 
     overflow:hidden;
 } 
+
+.badge_component {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
