@@ -1,0 +1,79 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    max-width: 18.75rem;
+    background: #ffffff;
+}
+
+.card_image {
+    height: 12.5rem;
+    background: url('../images/paella.jpeg') no-repeat;
+}
+
+.card_image_small {
+    height: 100px;
+    width: 100px;
+    background: url('../images/paella.jpeg') no-repeat;
+}
+
+.up-curve-border {
+    border-radius: 10px 10px 0 0;
+}
+
+.card_main {
+    display: flex;
+    flex-direction: column;
+}
+
+.card_topic {
+    font-size: 1.25rem;
+    font-weight: 800;
+    letter-spacing: 0.125rem;
+}
+
+.card_footer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.card_buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    color: var(--primary);
+}
+
+.card_button{
+    cursor: pointer;
+}
+
+.card_button:hover {
+    background: var(--light-primary);
+}
+
+.card_icons {
+   margin-left: auto;
+}
+
+.card_icon {
+    font-size: 1.25rem;
+    color: var(--light-secondary);
+}
+
+.card-row {
+    display: flex;
+    flex-flow: row wrap;
+    margin: inherit;
+    background-color: #ffffff;
+    max-width: 18.75rem;
+}
+
+.card-img-small {
+    height: 100px;
+    width: 100px;
+    background: url('../images/paella.jpeg') no-repeat;
+}
+.row-content {
+    color: var(--primary);
+}

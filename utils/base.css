@@ -3,7 +3,7 @@
 @import url('./_colors.css');
 @import url('./badge.css');
 @import url('./button.css');
-
+@import url('./card.css');
 /* Margins */
 
 .m-auto {
