@@ -8,14 +8,14 @@
 .varaint-bg {
     padding: 8px 16px;
     background: var(--primary);
-    color: #ffffff;
+    color: var(--white);
     border: none;
 }
 
 .badge {
     position: relative;
     background: var(--secondary);
-    color: #ffffff;
+    color: var(--white);
     padding: 4px;
 }
 
@@ -26,7 +26,7 @@
 
 .badge_btn_right {
     background: var(--secondary);
-    color: #ffffff;
+    color: var(--white);
     padding: 5px;
     font-size: 15px;
     left: -36px;
@@ -35,7 +35,7 @@
 
 .badge_btn_left {
     background: var(--secondary);
-    color: #ffffff;
+    color: var(--white);
     padding: 5px;
     font-size: 15px;
     left: -112px;
@@ -44,7 +44,7 @@
 
 .badge_icon  {
     background: var(--secondary);
-    color: #ffffff;
+    color: var(--white);
     padding: 5px;
     font-size: 15px;
     top: -14px;

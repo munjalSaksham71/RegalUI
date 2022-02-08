@@ -6,31 +6,31 @@
 
 .btn-primary {
     background-color: var(--primary);
-    color: #ffffff;
+    color: var(--white);
 }
 
 .btn-secondary {
     background-color: var(--secondary);
-    color: #ffffff;
+    color: var(--white);
 }
 
 .btn-success {
     background-color: var(--success);
-    color: #ffffff;
+    color: var(--white);
 }
 
 .btn-error {
     background-color: var(--danger);
-    color: #ffffff;
+    color: var(--white);
 }
 
 .btn-dark {
     background-color: var(--bg-black);
-    color: #ffffff;
+    color: var(--white);
 }
 
 .btn-link {
-    background-color: #ffffff;
+    background-color: var(--white);
     color: var(--primary);
     text-decoration: underline;
 }
@@ -38,37 +38,37 @@
 /* Outline Buttons */
 
 .btn-outline-primary {
-    background-color: #ffffff;
+    background-color: var(--white);
     border: 1px solid var(--primary);
 }
 
 .btn-outline-secondary {
-    background-color: #ffffff;
+    background-color: var(--white);
     border: 1px solid var(--secondary);
 }
 
 .btn-outline-error {
-    background-color: #ffffff;
+    background-color: var(--white);
     border: 1px solid var(--danger);
 }
 
 .btn-outline-warning {
-    background-color: #ffffff;
+    background-color: var(--white);
     border: 1px solid var(--warning);
 }
 
 .btn-outline-success {
-    background-color: #ffffff;
+    background-color: var(--white);
     border: 1px solid var(--success);
 }
 
 .btn-outline-dark {
-    background-color: #ffffff;
+    background-color: var(--white);
     border: 1px solid var(--bg-black);
 }
 
 .btn-outline-link {
-    background-color: #ffffff;
+    background-color: var(--white);
     border: 1px solid var(--primary);
     color: var(--primary);
 }

@@ -46,7 +46,7 @@ li {
 
 .list-item:hover {
     background-color: #3D9AEE;
-    color: #ffffff;
+    color: var(--white);
 }
 
 .style_attribute {

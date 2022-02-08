@@ -5,13 +5,13 @@
 
 .basic-list {
     border: 1px solid black;
-    padding: 16px;
+    padding: 1rem;
 }
 
 .basic-list:hover {
     cursor: pointer;
     background-color: var(--primary);
-    color: #ffffff;
+    color: var(--white);
 }
 
 .stacked {
