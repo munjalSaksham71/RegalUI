@@ -1,0 +1,28 @@
+.list {
+    display: flex;
+    flex-direction: column;
+}
+
+.basic-list {
+    border: 1px solid black;
+    padding: 16px;
+}
+
+.basic-list:hover {
+    cursor: pointer;
+    background-color: var(--primary);
+    color: #ffffff;
+}
+
+.stacked {
+    width: 20rem;
+}
+
+.curve-border {
+    border-radius: 10px;
+}
+
+.list-heading {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}

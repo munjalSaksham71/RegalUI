@@ -19,19 +19,37 @@
     <div class="wrapper">
         <aside class="sidenav">
             <ul class="non-bullet">
-                <li class="bolder"><a class="style_attribute" href="../index.html">Get Started</a></li>
-                <li class="bolder">Components</li>
-                <li class="list-item active">Avatar</li>
-                <li class="list-item">Alert</li>
-                <li class="list-item">Badge</li>
-                <li class="list-item">Button</li>
-                <li class="list-item">Card</li>
-                <li class="list-item">Image</li>
-                <li class="list-item">Input</li>
+                <li class="list-item bolder"><a class="style_attribute" href="../index.html">Get Started</a></li>
+                <li class="list-item bolder">Components</li>
+                <li class="list-item active"><a class="style_attribute" href="#typography">Typography</a></li>
+                <li class="list-item active"><a class="style_attribute" href="#avatar">Avatar</a></li>
+                <li class="list-item"><a class="style_attribute" href="#alert">Alert</a></a></li>
+                <li class="list-item"><a class="style_attribute" href="#badge">Badge</a></li>
+                <li class="list-item"><a class="style_attribute" href="#button">Button</a></li>
+                <li class="list-item"><a class="style_attribute" href="#card">Card</a></li>
+                <li class="list-item"><a class="style_attribute" href="#img_res">Image</a></li>
+                <li class="list-item"><a class="style_attribute" href="#input">Input</a></li>
+                <li class="list-item"><a class="style_attribute" href="#lists">Lists</a></li>
             </ul>
         </aside>
         <div class="content">
-            <div class="heading1 bolder mb-5">Avatar</div>
+
+            <!-- Typography -->
+            <div id="typography" class="heading1 bolder mb-5">Typography</div>
+            <div class="overview mb-3">The Typography component in this library provides a helpful variety of styled text components.</div>
+            <div class="heading1 mb-2">This is a heading1</div>
+            <div class="heading2 mb-2">This is a heading2</div>
+            <div class="heading3 mb-2">This is a heading3</div>  
+            <div class="heading1 grey mb-2">This is a Grey Text with heading1</div>
+            <div class="heading3">Source Code</div>
+            <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%2818%2C133%2C237%2C1%29&t=a11y-dark&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522heading1%2520mb-2%2522%253EThis%2520is%2520a%2520heading1%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522heading2%2520mb-2%2522%253EThis%2520is%2520a%2520heading2%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522heading3%2520mb-2%2522%253EThis%2520is%2520a%2520heading3%253C%252Fdiv%253E%2520%2520%250A%253Cdiv%2520class%253D%2522heading1%2520grey%2520mb-2%2522%253EThis%2520is%2520a%2520Grey%2520Text%2520with%2520heading1%253C%252Fdiv%253E"
+            style="width: 749px; height: 260px; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+            </iframe> <hr class="mt-3 mb-3">
+            <!-- Avatar -->
+
+            <div id="avatar" class="heading1 bolder mb-5">Avatar</div>
             <div class="overview mb-3">The Avatar comes with predefined option that allow you to set its shape, type, color, size, border, and fill.</div>
             <!-- Image Avatar -->
             <div class="inline_avatar">
@@ -118,7 +136,7 @@
 
             <!-- **************** Badges ************************ -->
 
-            <div class="heading1 bolder mb-5">Badges</div>
+            <div id="badge" class="heading1 bolder mb-5">Badges</div>
             <div class="component mb-5">
                 <div>Text with a badge<span class="badge badge_text circle-border">3</span></div>
                 <div class="bigger_text"> Bigger Text with a badge<span class="badge badge_text circle-border">3</span></div>
@@ -289,7 +307,7 @@
             </iframe> <hr class="mb-3 mt-3">
 
              <!-- **************** Image Responsive ************************ -->
-             <div id="card" class="heading1 bolder mt-5 mb-5">Responsive Image</div>
+             <div id="img_res" class="heading1 bolder mt-5 mb-5">Responsive Image</div>
              <div class="overview mb-3">To make image responsive, just use class img-res</div>
              <img src="../images/harvey.jpeg" class="img-res m-auto"></img>
              <div class="heading3 center mb-4 mt-4">Horizontal Image Responsive</div>
@@ -318,6 +336,52 @@
             style="width: 884px; height: 279px; border:0; transform: scale(1); overflow:hidden;"
             sandbox="allow-scripts allow-same-origin">
             </iframe> <hr class="mt-3" />
+
+            <!-- List Item -->
+            <div id="lists" class="heading1 bolder mt-5 mb-5">Lists</div>
+
+            <div class="list">
+                <ul class="non-bullet">
+                    <li class="basic-list">Item 1</li>
+                    <li class="basic-list">Item 2</li>
+                    <li class="basic-list">Item 3</li>
+                    <li class="basic-list">Item 4</li>
+                    <li class="basic-list">Item 5</li>
+                    <li class="basic-list">Item 6</li>
+                </ul>
+            </div>
+            <div class="heading3 center mb-4 mt-4">Basic-list</div>
+            <div class="heading3 mt-3">Source Code</div>
+            <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%2818%2C133%2C237%2C1%29&t=a11y-dark&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522list%2522%253E%250A%253Cul%2520class%253D%2522non-bullet%2522%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522basic-list%2522%253EItem%25201%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522basic-list%2522%253EItem%25202%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522basic-list%2522%253EItem%25203%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522basic-list%2522%253EItem%25204%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522basic-list%2522%253EItem%25205%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522basic-list%2522%253EItem%25206%253C%252Fli%253E%250A%253C%252Ful%253E%250A%253C%252Fdiv%253E"
+            class="code-snippet"
+            sandbox="allow-scripts allow-same-origin">
+            </iframe> <hr class="mt-3 mb-3">
+            
+            <!-- Stacked Lists -->
+            <div class="list stacked">
+                <ul class="non-bullet">
+                    <li class="basic-list curve-border">
+                        <div class="list-heading">List Heading</div>
+                        <div class="list-title">Lorem Ipsum is simply dummy text of the printing and typesetting industry</div>
+                    </li>
+                    <li class="basic-list curve-border">
+                        <div class="list-heading">List Heading</div>
+                        <div class="list-title">Lorem Ipsum is simply dummy text of the printing and typesetting industry</div>
+                    </li>
+                    <li class="basic-list curve-border">
+                        <div class="list-heading">List Heading</div>
+                        <div class="list-title">Lorem Ipsum is simply dummy text of the printing and typesetting industry</div>
+                    </li>
+                </ul>
+            </div>
+            <div class="heading3 center mb-4 mt-4">Stacked-list</div>
+            <div class="heading3 mt-3">Source Code</div>
+            <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%2818%2C133%2C237%2C1%29&t=a11y-dark&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522list%2520stacked%2522%253E%250A%253Cul%2520class%253D%2522non-bullet%2522%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522basic-list%2520curve-border%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522list-heading%2522%253EList%2520Heading%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522list-title%2522%253ELorem%2520Ipsum%2520is%2520simply%2520dummy%2520text%2520of%2520the%2520printing%2520and%2520typesetting%2520industry%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522basic-list%2520curve-border%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522list-heading%2522%253EList%2520Heading%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522list-title%2522%253ELorem%2520Ipsum%2520is%2520simply%2520dummy%2520text%2520of%2520the%2520printing%2520and%2520typesetting%2520industry%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522basic-list%2520curve-border%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522list-heading%2522%253EList%2520Heading%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522list-title%2522%253ELorem%2520Ipsum%2520is%2520simply%2520dummy%2520text%2520of%2520the%2520printing%2520and%2520typesetting%2520industry%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fli%253E%250A%253C%252Ful%253E%250A%253C%252Fdiv%253E"
+            class="code-snippet"
+            sandbox="allow-scripts allow-same-origin">
+            </iframe> <hr class="mb-3 mt-3" />
         </div> 
     </div>
 
