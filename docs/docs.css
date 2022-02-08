@@ -27,8 +27,6 @@ body {
 li {
     display: block;
     color: black;
-    padding: 16px;
-    text-decoration: none;
 }
 
 .non-bullet {
@@ -42,11 +40,13 @@ li {
 
 .list-item {
     cursor: pointer;
+    padding: 16px;
+   
 }
 
 .list-item:hover {
     background-color: #3D9AEE;
-    color: #ffffff;
+    color: var(--white);
 }
 
 .style_attribute {
@@ -83,4 +83,8 @@ li {
     flex-wrap: wrap;
     gap: 30px;
     justify-content: center;
+}
+
+.grey {
+    color: var(--grey);
 }

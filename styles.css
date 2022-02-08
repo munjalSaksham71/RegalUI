@@ -80,7 +80,7 @@ main {
 
 footer {
     background-color: var(--primary-color);
-    color: #ffffff;
+    color: var(--white);
     padding: 1.5rem;
     position: relative;
     left: 0;
@@ -99,7 +99,7 @@ footer {
 .button {
     padding: 8px 16px;
     background-color: var(--primary-color);
-    color: #ffffff;
+    color: var(--white);
     cursor: pointer;
     border-radius: 5px;
     margin: 10px;
@@ -130,12 +130,12 @@ footer {
 }
 
 .white-font {
-    color: #ffffff;
+    color: var(--white);
 }
 
 .style_none {
     text-decoration: none;
-    color: #ffffff;
+    color: var(--white);
 }
 
 .center {

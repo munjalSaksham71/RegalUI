@@ -36,22 +36,22 @@
 
 .bg-black {
     background-color: black;
-    color: #ffffff;
+    color: var(--white);
 }
 
 .bg-blue {
     background-color: blue;
-    color: #ffffff;
+    color: var(--white);
 }
 
 .bg-green {
     background-color: green;
-    color: #ffffff;
+    color: var(--white);
 }
 
 .bg-red {
     background-color: red;
-    color: #ffffff;
+    color: var(--white);
 }
 
 .rounded-corner {
