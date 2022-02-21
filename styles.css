@@ -141,3 +141,7 @@ footer {
 .center {
     text-align: center;
 }
+
+.primary-col {
+    color: var(--primary-color);
+}
