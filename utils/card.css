@@ -77,3 +77,19 @@
 .row-content {
     color: var(--primary);
 }
+
+.card_badge {
+    position: absolute;
+    border-radius: 10px 0px 0px 0px;
+}
+
+.card_dismiss {
+    position: absolute;
+    margin-left: 17rem;
+    margin-top: 0.5rem;
+    font-size: x-large;
+}
+
+.card_shadow {
+    box-shadow: 10px 10px 10px #999;
+}
