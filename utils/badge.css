@@ -27,8 +27,8 @@
 .badge_btn_right {
     background: var(--secondary);
     color: var(--white);
-    padding: 5px;
-    font-size: 15px;
+    padding: 8px;
+    font-size: 1rem;
     left: -36px;
     top: -9px;
 }
@@ -36,9 +36,9 @@
 .badge_btn_left {
     background: var(--secondary);
     color: var(--white);
-    padding: 5px;
-    font-size: 15px;
-    left: -112px;
+    padding: 8px;
+    font-size: 1rem;
+    left: -7.3rem;
     top: -13px;
 }
 
