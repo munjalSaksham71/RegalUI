@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
 @import url('./docs/docs.css');
-@import url('./utils/base.css');
+@import url('./components/base.css');
 
 * { 
     padding: 0;
