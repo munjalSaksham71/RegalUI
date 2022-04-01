@@ -1,0 +1,91 @@
+
+.row_container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.varaint-bg {
+    padding: 8px 16px;
+    background: var(--primary);
+    color: var(--white);
+    border: none;
+}
+
+.badge {
+    position: relative;
+    background: var(--secondary);
+    color: var(--white);
+    padding: 4px;
+}
+
+.badge_text {
+    top: -9px;
+    font-size: 10px;
+}
+
+.badge_btn_right {
+    background: var(--secondary);
+    color: var(--white);
+    padding: 8px;
+    font-size: 1rem;
+    left: -36px;
+    top: -9px;
+}
+
+.badge_btn_left {
+    background: var(--secondary);
+    color: var(--white);
+    padding: 8px;
+    font-size: 1rem;
+    left: -7.3rem;
+    top: -13px;
+}
+
+.badge_icon  {
+    background: var(--secondary);
+    color: var(--white);
+    padding: 5px;
+    font-size: 15px;
+    top: -14px;
+}
+
+.bigger_text {
+    font-size: 1.25rem;
+}
+
+.big_icon {
+    font-size: 2rem;
+}
+
+.circle-border {
+    border-radius: 50%;
+}
+
+.relative_top_online {
+    position: relative;
+    left: 7.6rem;
+    top: -9.37rem;
+    color: green;
+}
+
+.relative_bottom_online {
+    position: relative;
+    top: -2rem;
+    left: 6.25rem;
+    color: green;
+}
+
+.relative_top_offline {
+    position: relative;
+    top: -6rem;
+    left: 5rem;
+    color: red;
+}
+
+.relative_bottom_offline {
+    position: relative;
+    top: -1.3125rem;
+    left: 2.25rem;
+    color: red;
+}

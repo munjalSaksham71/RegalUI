@@ -1,0 +1,18 @@
+.img-res {
+    width: 30vw;
+    height: auto;
+}
+
+@media screen  and (max-width: 520px) {
+    .img-res {
+        width: 20vw;
+        height: auto;
+    }
+}
+
+@media screen  and (max-width: 980px) {
+    .img-res {
+        width: 30vw;
+        height: auto;
+    }
+}
