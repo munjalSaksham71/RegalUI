@@ -90,3 +90,15 @@ Lists are a continuous group of text or image
 Ratings provide insight regarding others' opinions and experiences, and can allow the user to submit a rating of their own.
 
 
+# Added Features: 
+
+11. ### Navigation:
+
+- Headers are navigation components that display information and actions relating to the current screen
+
+12. ### Snackbar
+
+- Snackbars are often used as a tooltips/popups to show a message at the bottom of the screen.
+
+13. ### Grid
+- The CSS Grid Layout Module offers a grid-based layout system, with rows and columns, making it easier to design web pages without having to use floats and positioning

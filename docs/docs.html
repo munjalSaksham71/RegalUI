@@ -30,6 +30,9 @@
                 <li class="list-item"><a class="style_attribute" href="#input">Input</a></li>
                 <li class="list-item"><a class="style_attribute" href="#lists">Lists</a></li>
                 <li class="list-item"><a class="style_attribute" href="#rating">Rating</a></li>
+                <li class="list-item"><a class="style_attribute" href="#navigation">Navigation</a></li>
+                <li class="list-item"><a class="style_attribute" href="#snackbar-comp">Snackbar</a></li>
+                <li class="list-item"><a class="style_attribute" href="#grid">Grid</a></li>
             </ul>
         </aside>
         <div class="content">
@@ -501,7 +504,81 @@
             class="code-snippet"
             sandbox="allow-scripts allow-same-origin">
             </iframe> <hr class="mb-3">
+        
+
+        <!--  Navigation -->
+        <div id="navigation" class="heading1 bolder mt-5 mb-5">Navigation</div>
+        <div class="overview mb-1">Headers are navigation components that display information and actions relating to the current screen</div>
+        <div class="navigation border">
+            <div class="nav navbar">
+                <h1 class="nav_heading">REGAL UI</h1>
+                <div class="topbar_link">
+                    <div class="header_link link"><a class="style_none" href="./docs/docs.html" target="_blank">Docs</a></div>
+                    <a class="style_none" href="https://github.com/munjalSaksham71/RegalUI" target="_blank"><i class="header_icon link fa fa-github"></i></a>
+                </div>  
+            </div>
+        </div>
+        <div class="heading3 mt-3">Source Code</div>
+        <iframe
+        src="https://carbon.now.sh/embed?bg=rgba%2818%2C133%2C237%2C1%29&t=a11y-dark&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522nav%2520navbar%2522%253E%250A%2509%253Ch1%2520class%253D%2522nav_heading%2522%253EREGAL%2520UI%253C%252Fh1%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522topbar_link%2522%253E%250A%2520%2520%2520%2520%2509%253Cdiv%2520class%253D%2522header_link%2520link%2522%253E%253Ca%2520class%253D%2522style_none%2522%2520href%253D%2522.%252Fdocs%252Fdocs.html%2522%2520target%253D%2522_blank%2522%253EDocs%253C%252Fa%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2509%2520%2520%2520%2520%253Ca%2520class%253D%2522style_none%2522%2520href%253D%2522https%253A%252F%252Fgithub.com%252FmunjalSaksham71%252FRegalUI%2522%2520target%253D%2522_blank%2522%253E%253Ci%2520class%253D%2522header_icon%2520link%2520fa%2520fa-github%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%2520%2520%250A%253C%252Fdiv%253E"
+        style="width: 1024px; height: 354px; border:0; transform: scale(1); overflow:hidden;"
+        sandbox="allow-scripts allow-same-origin">
+        </iframe> <hr class="mb-3">
+
+        <!-- Snackbar Component -->
+        <div id="snackbar-comp" class="heading1 bolder mt-5 mb-5">Snackbar/Toast</div>
+        <div class="overview">Snackbars are often used as a tooltips/popups to show a message at the bottom of the screen.</div>
+        <div class="overview mt-1">Click on the below Button to get a preview</div>
+        <button onclick="showSnackbar()" class="btn btn-primary m-2">Click Here</button>
+        <p id="snackbar" class="center">This is a Snackbar/Toast Component</p> <hr class="mb-3" />
+        <div class="heading3 mt-3">Source Code</div>
+        <iframe
+        src="https://carbon.now.sh/embed?bg=rgba%2818%2C133%2C237%2C1%29&t=a11y-dark&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%253Cbutton%2520onclick%253D%2522showSnackbar%28%29%2522%2520class%253D%2522btn%2520btn-primary%2520m-2%2522%253EClick%2520Here%253C%252Fbutton%253E%250A%2520%2520%253Cp%2520id%253D%2522snackbar%2522%2520class%253D%2522center%2522%253EThis%2520is%2520a%2520Snackbar%252FToast%2520Component%253C%252Fp%253E"
+        style="width: 842px; height: 223px; border:0; transform: scale(1); overflow:hidden;"
+        sandbox="allow-scripts allow-same-origin">
+        </iframe>
+        <hr class="mb-3" />
+        <!-- Grid -->
+        <div id="grid" class="heading1 bolder mt-5 mb-5">Grid</div>
+        <div class="overview">The CSS Grid Layout Module offers a grid-based layout system, with rows and columns, making it easier to design web pages without having to use floats and positioning.</div>
+
+        <!-- Grid:2 -->
+        <div class="heading3 mt-2">Grid 2 : Two items in a row</div>
+        <div class="grid_container grid-three">
+            <div class="item center pt-4 pb-4"> 1 </div>
+            <div class="item center pt-4 pb-4"> 2 </div>
         </div> 
+        <div class="heading3 mt-3">Source Code</div>
+        <iframe
+        src="https://carbon.now.sh/embed?bg=rgba%2818%2C133%2C237%2C1%29&t=a11y-dark&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522grid_container%2520grid-three%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522center%2520pt-4%2520pb-4%2522%253E%25201%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522center%2520pt-4%2520pb-4%2522%253E%25202%2520%253C%252Fdiv%253E%250A%2520%253C%252Fdiv%253E"
+        style="width: 513px; height: 261px; border:0; transform: scale(1); overflow:hidden;"
+        class="mt-2 mb-2"
+        sandbox="allow-scripts allow-same-origin">
+        </iframe>
+        <hr class="mb-3" />
+
+
+
+        <!-- Grid:3 -->
+        <div class="heading3">Grid 3 : Three items in a row</div>
+        <div class="grid_container grid-three">
+            <div class="item center pt-4 pb-4"> 1 </div>
+            <div class="item center pt-4 pb-4"> 2 </div>
+            <div class="item center pt-4 pb-4"> 3 </div>
+        </div> 
+        
+        <div class="heading3 mt-3">Source Code</div>
+        <iframe
+        src="https://carbon.now.sh/embed?bg=rgba%2818%2C133%2C237%2C1%29&t=a11y-dark&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522grid_container%2520grid-three%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522center%2520pt-4%2520pb-4%2522%253E%25201%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522center%2520pt-4%2520pb-4%2522%253E%25202%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522center%2520pt-4%2520pb-4%2522%253E%25203%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%2520"
+        style="width: 513px; height: 279px; border:0; transform: scale(1); overflow:hidden;"
+        class="mt-2 mb-2"
+        sandbox="allow-scripts allow-same-origin">
+        </iframe>
+        <hr class="mb-3" />
+
+
+
+    </div>
     </div>
 
     <script src="./docs.js"></script>
